@@ -9,7 +9,7 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [linux-latest]
+        os: [linux]
 
     runs-on: ${{ matrix.os }}
 
